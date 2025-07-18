@@ -26,10 +26,10 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc));
 
 //cors
 const corsOption = {
-    origin: "*",
+    origin: "http://localhost:5173", // or your actual frontend origin
     credentials: true,
     optionsSuccessStatus: 200
-}
+};
 app.use(cors(corsOption));
 
 //main rout
