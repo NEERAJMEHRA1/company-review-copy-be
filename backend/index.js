@@ -23,26 +23,15 @@ app.use(express.urlencoded({ limit: "200mb", extended: true }));
 //swagger set up
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc));
 
-
-//corsconst allowedOrigins = [
-  "http://localhost:5173",
-  "https://company-review-copy-fe.onrender.com"
-];
-
 const corsOptions = {
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
+  origin: [
+    "http://localhost:5173",
+    "https://company-review-copy-fe.onrender.com"
+  ],
   credentials: true,
   optionsSuccessStatus: 200
 };
-
 app.use(cors(corsOptions));
-
 
 //main rout
 app.use("/reviews", reviewRoutes);
