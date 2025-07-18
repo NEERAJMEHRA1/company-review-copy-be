@@ -1,15 +1,15 @@
+
 import dotenv from "dotenv";
 dotenv.config();
 
 const envVars = {
-    NODE_ENV: process.env.NODE_ENV,
-    DB_NAME: process.env.DB_NAME,
-    DB_HOST: process.env.DB_HOST,
-    DB_PORT: process.env.DB_PORT,
+    NODE_ENV: "localhost",
+    DB_NAME: "companies_information",
+    DB_HOST: 3000,
+    DB_PORT: 27017,
     JWT_SECRET: process.env.JWT_SECRET,
     JWT_EXPIRE: process.env.JWT_EXPIRE,
-    IMAGE_ACCESS_URL: process.env.IMAGE_ACCESS_URL,
-    MONGO_DB_URI: process.env.IMAGE_ACCESS_URL,
+    IMAGE_ACCESS_URL: "https://company-review-copy-be.onrender.com/",
+    MONGO_DB_URI: "mongodb+srv://neerajmehra448:Neeraj%40123@cluster0.biiynon.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
 };
-
 export default envVars;
