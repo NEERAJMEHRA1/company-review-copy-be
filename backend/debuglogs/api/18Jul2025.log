@@ -1,0 +1,94 @@
+18-07-2025 04:59:05 PM info: comapnyLogo : Req body==>> {"name":"Graffersid Web and App Development","location":"816, Shekhar Central, Manorama Ganj, AB road New Palasia Indore(MP)","foundedOn":"01-01-2016","city":"Indore","logoUrl":"","avgRating":0,"_id":"687a30017fc459e2b28772c4"} 
+18-07-2025 04:59:05 PM info: ####****addCompany : Company added successfully****#### 
+18-07-2025 05:03:23 PM info: getCompanyList : filter==>> {} 
+18-07-2025 05:03:23 PM info: getCompanyList : filter==>> {} 
+18-07-2025 05:03:23 PM info: getCompanyList : filter==>> {} 
+18-07-2025 05:03:23 PM info: getCompanyList : filter==>> {} 
+18-07-2025 05:03:23 PM info: getCompanyList : filter==>> [] 
+18-07-2025 05:03:23 PM error: ####****getCompanyList : Data not found****#### 
+18-07-2025 05:03:23 PM info: getCompanyList : filter==>> [] 
+18-07-2025 05:03:23 PM error: ####****getCompanyList : Data not found****#### 
+18-07-2025 05:03:24 PM info: getCompanyList : filter==>> [] 
+18-07-2025 05:03:24 PM error: ####****getCompanyList : Data not found****#### 
+18-07-2025 05:03:24 PM info: getCompanyList : filter==>> [] 
+18-07-2025 05:03:24 PM error: ####****getCompanyList : Data not found****#### 
+18-07-2025 05:05:59 PM info: ####****uploadLogo : File uploaded successfully****#### 
+18-07-2025 05:06:02 PM info: comapnyLogo : Req body==>> {"name":"Vishal and brothers","location":"Navlakha, Indore","foundedOn":"2025-07-18","city":"Indore","logoUrl":"assets/logo/companyLogo_1752838559793.jpg","avgRating":0,"_id":"687a31a27fc459e2b28772ca"} 
+18-07-2025 05:06:02 PM info: ####****addCompany : Company added successfully****#### 
+18-07-2025 05:06:02 PM info: getCompanyList : filter==>> {} 
+18-07-2025 05:06:02 PM info: getCompanyList : filter==>> [{"_id":"687a31a27fc459e2b28772ca","name":"Vishal and brothers","location":"Navlakha, Indore","foundedOn":"2025-07-18","city":"Indore","logoUrl":"assets/logo/companyLogo_1752838559793.jpg","avgRating":0,"createdAt":"2025-07-18T11:36:02.439Z","updatedAt":"2025-07-18T11:36:02.439Z","__v":0}] 
+18-07-2025 05:06:02 PM info: ####****getCompanyList : Company list fetched successfully****#### {
+  "0": {
+    "_id": "687a31a27fc459e2b28772ca",
+    "name": "Vishal and brothers",
+    "location": "Navlakha, Indore",
+    "foundedOn": "2025-07-18",
+    "city": "Indore",
+    "reviewCount": 0,
+    "logo": "http://localhost:3000/assets/logo/companyLogo_1752838559793.jpg",
+    "avgRating": 0,
+    "createdAt": "2025-07-18T11:36:02.439Z"
+  }
+}
+18-07-2025 05:07:16 PM info: ####****getCompanyDetail : Company details fetch successfully****#### 
+18-07-2025 05:07:16 PM info: ####****getCompanyDetail : Company details fetch successfully****#### 
+18-07-2025 05:07:20 PM info: getCompanyList : filter==>> {} 
+18-07-2025 05:07:20 PM info: getCompanyList : filter==>> {} 
+18-07-2025 05:07:20 PM info: getCompanyList : filter==>> {} 
+18-07-2025 05:07:20 PM info: getCompanyList : filter==>> {} 
+18-07-2025 05:07:20 PM info: getCompanyList : filter==>> [{"_id":"687a31a27fc459e2b28772ca","name":"Vishal and brothers","location":"Navlakha, Indore","foundedOn":"2025-07-18","city":"Indore","logoUrl":"assets/logo/companyLogo_1752838559793.jpg","avgRating":0,"createdAt":"2025-07-18T11:36:02.439Z","updatedAt":"2025-07-18T11:36:02.439Z","__v":0}] 
+18-07-2025 05:07:20 PM info: getCompanyList : filter==>> [{"_id":"687a31a27fc459e2b28772ca","name":"Vishal and brothers","location":"Navlakha, Indore","foundedOn":"2025-07-18","city":"Indore","logoUrl":"assets/logo/companyLogo_1752838559793.jpg","avgRating":0,"createdAt":"2025-07-18T11:36:02.439Z","updatedAt":"2025-07-18T11:36:02.439Z","__v":0}] 
+18-07-2025 05:07:20 PM info: getCompanyList : filter==>> [{"_id":"687a31a27fc459e2b28772ca","name":"Vishal and brothers","location":"Navlakha, Indore","foundedOn":"2025-07-18","city":"Indore","logoUrl":"assets/logo/companyLogo_1752838559793.jpg","avgRating":0,"createdAt":"2025-07-18T11:36:02.439Z","updatedAt":"2025-07-18T11:36:02.439Z","__v":0}] 
+18-07-2025 05:07:20 PM info: getCompanyList : filter==>> [{"_id":"687a31a27fc459e2b28772ca","name":"Vishal and brothers","location":"Navlakha, Indore","foundedOn":"2025-07-18","city":"Indore","logoUrl":"assets/logo/companyLogo_1752838559793.jpg","avgRating":0,"createdAt":"2025-07-18T11:36:02.439Z","updatedAt":"2025-07-18T11:36:02.439Z","__v":0}] 
+18-07-2025 05:07:20 PM info: ####****getCompanyList : Company list fetched successfully****#### {
+  "0": {
+    "_id": "687a31a27fc459e2b28772ca",
+    "name": "Vishal and brothers",
+    "location": "Navlakha, Indore",
+    "foundedOn": "2025-07-18",
+    "city": "Indore",
+    "reviewCount": 0,
+    "logo": "http://localhost:3000/assets/logo/companyLogo_1752838559793.jpg",
+    "avgRating": 0,
+    "createdAt": "2025-07-18T11:36:02.439Z"
+  }
+}
+18-07-2025 05:07:20 PM info: ####****getCompanyList : Company list fetched successfully****#### {
+  "0": {
+    "_id": "687a31a27fc459e2b28772ca",
+    "name": "Vishal and brothers",
+    "location": "Navlakha, Indore",
+    "foundedOn": "2025-07-18",
+    "city": "Indore",
+    "reviewCount": 0,
+    "logo": "http://localhost:3000/assets/logo/companyLogo_1752838559793.jpg",
+    "avgRating": 0,
+    "createdAt": "2025-07-18T11:36:02.439Z"
+  }
+}
+18-07-2025 05:07:20 PM info: ####****getCompanyList : Company list fetched successfully****#### {
+  "0": {
+    "_id": "687a31a27fc459e2b28772ca",
+    "name": "Vishal and brothers",
+    "location": "Navlakha, Indore",
+    "foundedOn": "2025-07-18",
+    "city": "Indore",
+    "reviewCount": 0,
+    "logo": "http://localhost:3000/assets/logo/companyLogo_1752838559793.jpg",
+    "avgRating": 0,
+    "createdAt": "2025-07-18T11:36:02.439Z"
+  }
+}
+18-07-2025 05:07:20 PM info: ####****getCompanyList : Company list fetched successfully****#### {
+  "0": {
+    "_id": "687a31a27fc459e2b28772ca",
+    "name": "Vishal and brothers",
+    "location": "Navlakha, Indore",
+    "foundedOn": "2025-07-18",
+    "city": "Indore",
+    "reviewCount": 0,
+    "logo": "http://localhost:3000/assets/logo/companyLogo_1752838559793.jpg",
+    "avgRating": 0,
+    "createdAt": "2025-07-18T11:36:02.439Z"
+  }
+}
